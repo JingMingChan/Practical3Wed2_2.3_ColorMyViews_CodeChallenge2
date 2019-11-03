@@ -4,6 +4,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private fun setListeners() {
 
         val boxOneText = findViewById<TextView>(R.id.box_one_text)
-        val boxTwoText = findViewById<TextView>(R.id.box_two_text)
+        val boxTwoText: ImageView = findViewById(R.id.box_two_text)
         val boxThreeText = findViewById<TextView>(R.id.box_three_text)
         val boxFourText = findViewById<TextView>(R.id.box_four_text)
         val boxFiveText = findViewById<TextView>(R.id.box_five_text)
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
             // Boxes using Color class colors for the background
             R.id.box_one_text -> view.setBackgroundColor(Color.DKGRAY)
-            R.id.box_two_text -> view.setBackgroundColor(Color.GRAY)
+            R.id.box_two_text -> view.setBackgroundResource(R.drawable.user)
             R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
             R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
