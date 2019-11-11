@@ -20,9 +20,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-
-    <ImageView
+    <TextView
         android:id="@+id/box_two_text"
         style="@style/whiteBox"
         android:layout_width="130dp"
@@ -33,23 +31,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/box_two_text"-->
-<!--        style="@style/whiteBox"-->
-<!--        android:layout_width="130dp"-->
-<!--        android:layout_height="130dp"-->
-<!--        android:layout_marginStart="@dimen/margin_wide"-->
-<!--        android:layout_marginTop="@dimen/margin_wide"-->
-<!--        android:text="@string/box_two"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/box_one_text" />-->
-
     <TextView
         android:id="@+id/box_three_text"
         style="@style/whiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_wide"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="@dimen/margin_wide"
         android:text="@string/box_three"
         app:layout_constraintBottom_toTopOf="@+id/box_four_text"
@@ -62,7 +49,7 @@
         style="@style/whiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_wide"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="@dimen/margin_wide"
         android:text="@string/box_four"
         app:layout_constraintBottom_toTopOf="@+id/box_five_text"
@@ -75,7 +62,7 @@
         style="@style/whiteBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_wide"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="@dimen/margin_wide"
         android:text="@string/box_five"
         app:layout_constraintBottom_toBottomOf="@+id/box_two_text"
@@ -91,6 +78,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:text="@string/box_six"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_two_text" />
@@ -102,6 +90,7 @@
         android:layout_height="130dp"
         android:layout_marginStart="@dimen/margin_wide"
         android:layout_marginTop="@dimen/margin_wide"
+        android:text="@string/box_seven"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_six_text" />
 
@@ -112,6 +101,7 @@
         android:layout_height="130dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:text="@string/box_eight"
         app:layout_constraintBottom_toBottomOf="@+id/box_seven_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/box_seven_text"
@@ -125,7 +115,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="TextView"
+        android:text="@string/box_Nine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_seven_text" />
@@ -138,7 +128,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="TextView"
+        android:text="@string/box_Ten"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_nine_text" />
@@ -151,6 +141,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:text="@string/box_eleven"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/box_ten_text" />
@@ -164,6 +155,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:text="@string/box_twelve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
