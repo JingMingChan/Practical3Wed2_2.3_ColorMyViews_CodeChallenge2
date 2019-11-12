@@ -29,11 +29,6 @@ class MainActivity : AppCompatActivity() {
         val ten = findViewById<TextView>(R.id.box_ten_text)
         val eleven = findViewById<TextView>(R.id.box_eleven_text)
         val twelve = findViewById<TextView>(R.id.box_twelve_text)
-
-//        val redButton = findViewById<TextView>(R.id.red_button)
-//        val greenButton = findViewById<TextView>(R.id.green_button)
-//        val yellowButton = findViewById<TextView>(R.id.yellow_button)
-
         val rootConstraintLayout = findViewById<View>(R.id.constraint_layout)
 
 
@@ -47,9 +42,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun makeColored(view: View){
-//        val boxThreeText = findViewById<TextView>(R.id.box_three_text)
-//        val boxFourText = findViewById<TextView>(R.id.box_four_text)
-//        val boxFiveText = findViewById<TextView>(R.id.box_five_text)
+
         when (view.id) {
 
             // Boxes using Color class colors for the background
@@ -65,9 +58,6 @@ class MainActivity : AppCompatActivity() {
             R.id.box_ten_text -> view.setBackgroundColor(Color.GREEN)
             R.id.box_eleven_text -> view.setBackgroundColor(Color.RED)
             R.id.box_twelve_text -> view.setBackgroundColor(Color.YELLOW)
-//            R.id.red_button -> boxThreeText.setBackgroundResource(R.color.my_red)
-//            R.id.yellow_button -> boxFourText.setBackgroundResource(R.color.my_yellow)
-//            R.id.green_button -> boxFiveText.setBackgroundResource(R.color.my_green)
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
     }
